@@ -330,9 +330,13 @@ header ul li a{
 }
 
 .card:nth-child(2) img{
-    width: 150px;  
-    height: 150px; 
+    width: 250px;  
+    height: 250px; 
     border-radius: 15px;
+}
+
+.card:nth-child(2) h1{
+    bottom: 25%;
 }
 .card:nth-child(3){
     grid-row: span 2;
